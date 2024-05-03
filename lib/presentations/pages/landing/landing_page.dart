@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:serenify/presentations/pages/login_page.dart';
+import 'package:serenify/presentations/pages/auth/login_page.dart';
 import 'package:serenify/presentations/widgets/button.dart';
 import 'package:serenify/styles/my_colors.dart';
 import 'package:serenify/styles/my_text.dart';
@@ -69,6 +69,7 @@ class LandingPage extends StatelessWidget {
                       }));
                     },
                     label: "Mulai",
+                    size: Size.big,
                     backgroundColor: Colors.white,
                     color: MyColors.tertiary400,
                   ),

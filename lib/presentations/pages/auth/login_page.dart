@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:serenify/presentations/pages/home_page.dart';
-import 'package:serenify/presentations/pages/register_page.dart';
+import 'package:serenify/presentations/pages/auth/register_page.dart';
+import 'package:serenify/presentations/pages/main_page.dart';
 import 'package:serenify/presentations/widgets/button.dart';
 import 'package:serenify/presentations/widgets/button_auth.dart';
 import 'package:serenify/presentations/widgets/text_field.dart';
@@ -91,10 +91,11 @@ class _LoginPageState extends State<LoginPage> {
                   label: 'Masuk',
                   color: MyColors.tertiary400,
                   backgroundColor: Colors.white,
+                  size: Size.big,
                   onPressed: () {
                     Navigator.pushReplacement(context,
                         MaterialPageRoute(builder: (context) {
-                      return const HomePage();
+                      return const MainPage();
                     }));
                   }),
               const Spacer(),

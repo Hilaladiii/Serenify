@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:serenify/presentations/pages/login_page.dart';
+import 'package:serenify/presentations/pages/auth/login_page.dart';
 import 'package:serenify/presentations/widgets/button.dart';
 import 'package:serenify/presentations/widgets/text_field.dart';
 import 'package:serenify/styles/my_colors.dart';
@@ -105,6 +105,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   label: 'Daftar',
                   color: MyColors.tertiary400,
                   backgroundColor: Colors.white,
+                  size: Size.big,
                   onPressed: () {}),
               const Spacer(),
               Row(

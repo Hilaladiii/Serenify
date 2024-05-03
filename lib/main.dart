@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:serenify/presentations/pages/splash_page.dart';
+import 'package:serenify/presentations/pages/splash/splash_page.dart';
 
 void main() {
   runApp(const MyApp());
