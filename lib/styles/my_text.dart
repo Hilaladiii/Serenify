@@ -16,6 +16,8 @@ class MyTextStyle {
       fontSize: 15, fontWeight: FontWeight.w700, color: color);
   static TextStyle? h6bold({required Color color}) => GoogleFonts.poppins(
       fontSize: 14, fontWeight: FontWeight.w700, color: color);
+  static TextStyle? h7bold({required Color color}) => GoogleFonts.poppins(
+      fontSize: 12, fontWeight: FontWeight.w700, color: color);
 
   static TextStyle? h1semi({required Color color}) => GoogleFonts.poppins(
       fontSize: 22, fontWeight: FontWeight.w600, color: color);
@@ -29,6 +31,10 @@ class MyTextStyle {
       fontSize: 15, fontWeight: FontWeight.w600, color: color);
   static TextStyle? h6semi({required Color color}) => GoogleFonts.poppins(
       fontSize: 14, fontWeight: FontWeight.w600, color: color);
+  static TextStyle? h7semi({required Color color}) => GoogleFonts.poppins(
+      fontSize: 13, fontWeight: FontWeight.w600, color: color);
+  static TextStyle? h8semi({required Color color}) => GoogleFonts.poppins(
+      fontSize: 12, fontWeight: FontWeight.w600, color: color);
 
   static TextStyle? h1reg({required Color color}) =>
       GoogleFonts.poppins(fontSize: 22, color: color);
@@ -46,4 +52,6 @@ class MyTextStyle {
       GoogleFonts.poppins(fontSize: 13, color: color);
   static TextStyle? h8reg({required Color color}) =>
       GoogleFonts.poppins(fontSize: 12, color: color);
+  static TextStyle? h9reg({required Color color}) =>
+      GoogleFonts.poppins(fontSize: 11, color: color);
 }
