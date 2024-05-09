@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:serenify/styles/my_colors.dart';
 import 'package:serenify/styles/my_text.dart';
 
-enum Type { text, email, password }
+enum Type { text, email, password, search }
 
 class MyTextField extends StatefulWidget {
   const MyTextField({
@@ -38,10 +38,12 @@ class _MyTextFieldState extends State<MyTextField> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(
-          widget.label,
-          style: MyTextStyle.h7reg(color: Colors.white),
-        ),
+        widget.fieldType == Type.search
+            ? Container()
+            : Text(
+                widget.label,
+                style: MyTextStyle.h7reg(color: Colors.white),
+              ),
         const SizedBox(
           height: 8,
         ),
