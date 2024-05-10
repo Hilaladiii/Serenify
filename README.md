@@ -20,7 +20,7 @@ Serenify adalah sebuah aplikasi mobile yang bertujuan untuk meningkatkan kesadar
 
 ## Tech Stack
 
-| Tech    | Deskripsi                                                       |
-| ------- | --------------------------------------------------------------- |
-| Dart    | Bahasa pemrograman yang digunakan untuk pengembangan aplikasi   |
-| Flutter | Framework yang digunakan untuk mempermudah development aplikasi |
+| Tech    | Deskripsi                                                        |
+| ------- | ---------------------------------------------------------------- |
+| Dart    | Bahasa pemrograman yang digunakan untuk pengembangan aplikasi    |
+| Flutter | Framework yang digunakan untuk mempermudah pengembangan aplikasi |
