@@ -1,16 +1,26 @@
-# serenify
+# SERENIFY
 
-A new Flutter project.
+## Nama Tim : Braws
 
-## Getting Started
+## Nama Anggota :
 
-This project is a starting point for a Flutter application.
+1. Abdullah Hilal Adi Sumarno - Hacker
+2. Sofia I'zaaz Jauzaa' - Hipster
+3. Federico Roberto D.S - Hacker
 
-A few resources to get you started if this is your first Flutter project:
+## Brief Explanation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Serenify adalah sebuah aplikasi mobile yang bertujuan untuk meningkatkan kesadaran dan kesejahteraan mental pengguna. Aplikasi ini menyediakan fitur untuk membantu pengguna memahami dan mengelola kesehatan mental mereka secara lebih baik. Aplikasi ini menawarkan fitur-fitur berikut :
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. **Tes Mental Awareness** : Pengguna dapat mengetahui seberapa jauh tingkat mental awareness-nya dengan mengikuti tes ini.
+2. **Hasil Tes dan Rekomendesasi Aktivitas** :
+   Mengetahui tingkat mental awareness dan rekomendasi aktivitas sesuai dengan kebutuhan pengguna
+3. **Komunitas** :
+   Pengguna dapat berbagi pengalaman, dukungan dan motivasi mengenai mental awareness
+
+## Tech Stack
+
+| Tech    | Deskripsi                                                       |
+| ------- | --------------------------------------------------------------- |
+| Dart    | Bahasa pemrograman yang digunakan untuk pengembangan aplikasi   |
+| Flutter | Framework yang digunakan untuk mempermudah development aplikasi |
