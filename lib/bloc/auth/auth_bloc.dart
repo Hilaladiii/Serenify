@@ -37,13 +37,11 @@ class AuthBloc extends Bloc<AuthEvent, AuthState> {
         String email = event.email;
         String password = event.password;
         final response = await authRepository.loginRepository(email, password);
-        if (response.message == "email not verified") {
+        if (response.message == "successfully logged in") {
+          return emit(LoginFetchSuccess(token: response.data.toString()));
+        } else {
           return emit(LoginFetchFailure(response.message));
         }
-        if (response.message == "invalid email or password") {
-          return emit(LoginFetchFailure(response.message));
-        }
-        return emit(LoginFetchSuccess(token: response.data.toString()));
       } catch (e) {
         emit(LoginFetchFailure("Server Error ${e.toString()}"));
       }
