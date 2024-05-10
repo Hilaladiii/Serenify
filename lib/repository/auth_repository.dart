@@ -33,7 +33,6 @@ class AuthRepository {
         "email": email,
         "password": password,
       });
-
       if (response.statusCode == 200) {
         return StatusModel.fromJson(response.data, null);
       } else {
@@ -60,7 +59,6 @@ class AuthRepository {
     try {
       var response = await dio.get(ApiInstance().pathUrl('/user/score'),
           options: Options(headers: {"Authorization": "Bearer $token"}));
-      print(response.data);
       return UserScoreModel.fromJson(response.data);
     } catch (e) {
       throw Exception(e.toString());
