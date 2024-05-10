@@ -4,7 +4,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:serenify/bloc/community/community_bloc.dart';
 import 'package:serenify/models/post_model.dart';
 import 'package:serenify/presentations/pages/community/create_post_community.dart';
-import 'package:serenify/presentations/widgets/card_post.dart';
+import 'package:serenify/presentations/pages/community/widgets/card_post.dart';
 import 'package:serenify/presentations/widgets/search_field.dart';
 import 'package:serenify/styles/my_colors.dart';
 import 'package:serenify/styles/my_text.dart';
