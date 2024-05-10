@@ -119,10 +119,6 @@ class _LoginPageState extends State<LoginPage> {
                                   email: emailController.text.trim(),
                                   password: passwordController.text.trim()));
                             }
-                            // Navigator.push(context,
-                            //     MaterialPageRoute(builder: (context) {
-                            //   return MainPage();
-                            // }));
                           }),
                       const Spacer(),
                       Padding(
