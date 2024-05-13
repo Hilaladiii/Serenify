@@ -51,10 +51,8 @@ class CommunityRepositroy {
       var response = await dio.post(ApiInstance().pathUrl('/post/$id/comments'),
           options: Options(headers: {"Authorization": "Bearer $token"}),
           data: {"comment": comment});
-      print(response.data);
       return StatusModel.fromJson(response.data, null);
     } catch (e) {
-      print(e.toString());
       throw Exception(e.toString());
     }
   }

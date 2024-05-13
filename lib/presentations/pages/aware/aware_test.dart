@@ -33,8 +33,6 @@ class _AwareTestState extends State<AwareTest> {
         child: BlocConsumer<TestBloc, TestState>(
           listener: (context, state) {
             if (state is TestFetchSucces) {
-              print(state.result.score);
-              print(state.result.description);
               Navigator.pushReplacement(context,
                   MaterialPageRoute(builder: (context) {
                 return AwareResultPage(

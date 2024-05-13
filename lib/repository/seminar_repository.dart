@@ -17,7 +17,6 @@ class SeminarRepository {
   Future<DetailSeminarModel> getSeminarById({required String id}) async {
     try {
       var response = await dio.get(ApiInstance().pathUrl('/seminar/$id'));
-      print(response.data);
       return DetailSeminarModel.fromJson(response.data);
     } catch (e) {
       throw Exception(e.toString());

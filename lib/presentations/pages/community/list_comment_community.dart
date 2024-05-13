@@ -107,7 +107,6 @@ class _ListCommentCommunityState extends State<ListCommentCommunity> {
                         child: ListView.separated(
                             itemBuilder: (context, index) {
                               var data = state.detailPost.comments![index];
-                              print(data);
                               return CardComments(
                                   username: data['user_name'],
                                   totalLikes: data['total_likes'],

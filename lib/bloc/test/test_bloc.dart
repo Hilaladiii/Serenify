@@ -14,7 +14,6 @@ class TestBloc extends Bloc<TestEvent, TestState> {
         emit(TestFetchLoading());
         var response = await testRespository.evaluateTest(
             answers: event.answers, token: event.token);
-        print(response);
         if (response.message == 'answer evaluated successfully') {
           emit(TestFetchSucces(response));
         } else {

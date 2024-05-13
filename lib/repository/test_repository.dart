@@ -11,10 +11,8 @@ class TestRepository {
       var response = await dio.post(ApiInstance().pathUrl('/answer/evaluate'),
           data: {"answer": answers},
           options: Options(headers: {"Authorization": "Bearer $token"}));
-      print(response.data);
       return TestModel.fromJson(response.data);
     } catch (e) {
-      print(e.toString());
       throw Exception(e.toString());
     }
   }

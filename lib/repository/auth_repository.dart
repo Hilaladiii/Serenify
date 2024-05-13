@@ -18,10 +18,8 @@ class AuthRepository {
             "password": password,
           },
           options: Options(contentType: "application/json"));
-      print(response.data);
       return StatusModel.fromJson(response.data, 'email');
     } catch (e) {
-      print(e);
       throw Exception(e.toString());
     }
   }
